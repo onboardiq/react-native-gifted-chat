@@ -82,7 +82,7 @@ export default class InputToolbar extends React.Component {
   }
 
   render() {
-    const isFocused = this.state.position === 'absolute';
+    const isFocused = this.state.position === 'relative';
     return (
       <View style={[styles.container, this.props.containerStyle, { position: this.state.position }]}>
         <View style={[styles.primary, this.props.primaryStyle, isFocused && styles.primaryFocused]}>
