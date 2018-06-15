@@ -60,9 +60,6 @@ const styles = StyleSheet.create({
     marginLeft: 10,
     fontSize: 16,
     lineHeight: 16,
-    borderWidth: 2,
-    borderColor: Color.defaultBlue,
-    borderRadius: 8,
     marginTop: Platform.select({
       ios: 6,
       android: 0,
