@@ -187,7 +187,7 @@ const styles = {
     },
     wrapper: {
       borderRadius: 15,
-      backgroundColor: Color.defaultBlue,
+      backgroundColor: Color.rightBubbleBackground,
       marginLeft: 60,
       minHeight: 20,
       justifyContent: 'flex-end',
