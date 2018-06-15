@@ -105,8 +105,7 @@ const styles = StyleSheet.create({
     right: 0,
     paddingLeft: 16,
     paddingRight: 16,
-    paddingBottom: 16,
-    paddingTop: 10,
+    marginTop: 10,
   },
   primary: {
     flexDirection: 'row',
