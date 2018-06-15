@@ -82,9 +82,10 @@ export default class InputToolbar extends React.Component {
   }
 
   render() {
+    const isFocused = this.state.position === 'absolute';
     return (
       <View style={[styles.container, this.props.containerStyle, { position: this.state.position }]}>
-        <View style={[styles.primary, this.props.primaryStyle]}>
+        <View style={[styles.primary, this.props.primaryStyle, isFocused && styles.primaryFocused]}>
           {this.renderActions()}
           {this.renderComposer()}
           {this.renderSend()}
@@ -111,8 +112,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'flex-end',
     borderWidth: 2,
-    borderColor: Color.defaultBlue,
+    borderColor: Color.lightblue,
     borderRadius: 8,
+  },
+  primaryFocused: {
+    borderColor: Color.defaultBlue,
   },
   accessory: {
     height: 44,
