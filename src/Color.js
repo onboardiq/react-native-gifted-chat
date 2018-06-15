@@ -1,7 +1,7 @@
 export default {
   defaultColor: '#b2b2b2',
   backgroundTransparent: 'transparent',
-  defaultBlue: '#0084ff',
+  defaultBlue: '#1d6ef5',
   rightBubbleBackground: '#eef2f6',
   leftBubbleBackground: '#1d6ef5',
   white: '#fff',
