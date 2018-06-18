@@ -110,6 +110,8 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     marginTop: 10,
+    marginLeft: 8,
+    marginRight: 8,
   },
   containerFocused: {
     bottom: 10,
