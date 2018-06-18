@@ -109,8 +109,6 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     right: 0,
-    paddingLeft: 16,
-    paddingRight: 16,
     marginTop: 10,
   },
   containerFocused: {
